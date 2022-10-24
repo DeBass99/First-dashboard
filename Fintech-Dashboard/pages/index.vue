@@ -90,6 +90,14 @@
       </b-col>
     </b-row>
 
+    <b-row >
+      <b-col md="12">
+
+        <Table1 />
+
+      </b-col>
+    </b-row>
+
   </div>
 </template>
 

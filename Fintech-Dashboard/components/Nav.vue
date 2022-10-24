@@ -92,14 +92,9 @@
 <style scoped>
 
     .nav{ 
-        background: none!important;
         padding-top: 15px;
-    }
-
-    .onScroll {
-      box-shadow: 0 0 8px rgb(231, 231, 231);
-      background-color: #F7EBDA;
-      transition: all 0.2s ease-in-out;
+        padding-bottom: 15px;
+        background-color: #fff!important;
     }
 
     .nav-one{
