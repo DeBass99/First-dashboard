@@ -50,15 +50,15 @@ p.details{
 }
 
 p.name{ 
-width: 200px;
+width: 250px;
 }
 
 .date{ 
-    width: 200px;
+    width: 270px;
 }
 
 .address{ 
-    width: 300px;
+    width: 270px;
 }
 
 .phone{ 
@@ -68,6 +68,13 @@ width: 200px;
 button{ 
     background: none;
     border: none;
+}
+
+
+@media only screen and (max-width: 500px) { 
+  button{ 
+    display: none;
+  }
 }
 
 </style>

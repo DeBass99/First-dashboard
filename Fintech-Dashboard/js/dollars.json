@@ -1,0 +1,51 @@
+[
+    {
+        "market": "Bitcoin",
+        "percent": "195.25%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Tesla",
+        "percent": "502.37%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Peleton Interactive",
+        "percent": "194.08%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Intel",
+        "percent": "-19.47%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    
+    {
+        "market": "Square",
+        "percent": "81.42%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Coca-Cola",
+        "percent": "-6.19%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    {
+        "market": "JPMorgan Chase",
+        "percent": "-11.57%",
+        "status": "pending",
+        "stat": "pending1"
+    }
+]

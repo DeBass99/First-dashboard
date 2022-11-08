@@ -1,0 +1,160 @@
+ {
+    "first" :[
+    {
+        "market": "Bitcoin",
+        "percent": "195.25%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Tesla",
+        "percent": "502.37%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Peleton Interactive",
+        "percent": "194.08%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Intel",
+        "percent": "-19.47%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    
+    {
+        "market": "Square",
+        "percent": "81.42%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Coca-Cola",
+        "percent": "-6.19%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    {
+        "market": "JPMorgan Chase",
+        "percent": "-11.57%",
+        "status": "pending",
+        "stat": "pending1"
+    }
+],
+
+
+
+"second" : [
+    {
+        "market": "Bitcoin",
+        "percent": "195.25%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Tesla",
+        "percent": "502.37%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Peleton Interactive",
+        "percent": "194.08%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Intel",
+        "percent": "-19.47%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    
+    {
+        "market": "Square",
+        "percent": "81.42%",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "Coca-Cola",
+        "percent": "-6.19%",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    {
+        "market": "JPMorgan Chase",
+        "percent": "-11.57%",
+        "status": "pending",
+        "stat": "pending1"
+    }
+],
+
+"third" : [
+    {
+        "market": "#134-55-26",
+        "percent": "7/27/19",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "#880-91-85",
+        "percent": "5/27/18",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "#134-55-26",
+        "percent": "10/28/20",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "#679-96-15",
+        "percent": "3/4/18",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    
+    {
+        "market": "#880-93-38",
+        "percent": "5/7/19",
+        "status": "complete",
+        "stat": "complete1"
+    },
+
+    {
+        "market": "#840-31-53",
+        "percent": "1/15/18",
+        "status": "pending",
+        "stat": "pending1"
+    },
+
+    {
+        "market": "#941-02-27",
+        "percent": "4/4/17",
+        "status": "pending",
+        "stat": "pending1"
+    }
+]
+
+ }

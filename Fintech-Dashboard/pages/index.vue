@@ -139,7 +139,7 @@ export default {
   }
 
   .head p{ 
-    padding: 20px 0px 20px 30px;
+    padding: 40px 0px 20px 30px;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -176,6 +176,12 @@ p.date{
   font-weight: 500;
   font-size: 12px;
   color: #A4A5B2;
+}
+
+@media only screen and (max-width: 500px) { 
+  .vertical{ 
+    display: none;
+  }
 }
   
 
