@@ -6,7 +6,6 @@
           <div class="head">
             <p class="heading">PRIMARY</p>
           </div>
-
           <div class="text">
             <Buy />
           </div>
@@ -15,10 +14,10 @@
         <div class="vertical"></div>
       </b-col>
 
-      <b-col class="top-text" md="4">
+      <b-col class="top-text sec" md="4">
         <div class="all-stuffs">
           <div class="head">
-            <p class="heading">TECH PERFORMANCE</p>
+            <p class="heading">SECONDARY</p>
           </div>
 
           <div class="text">
@@ -29,10 +28,10 @@
         <div class="vertical"></div>
       </b-col>
 
-      <b-col class="top-text" md="4">
+      <b-col class="top-text ter" md="4">
         <div class="all-stuffs">
           <div class="head">
-            <p class="heading">HLTH PERFORMANCE</p>
+            <p class="heading">TERTIARY</p>
           </div>
 
           <div class="text">
@@ -42,7 +41,7 @@
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row class="table">
       <b-col mb="12" class="overview">
         <div class="head-2">
           <p class="title">OVERVIEW</p>
@@ -77,7 +76,6 @@ export default {
 <style scoped>
 .top-name {
   margin-top: 30px;
-  display: flex;
 }
 
 .top-text {
@@ -136,8 +134,17 @@ p.date {
   color: #a4a5b2;
 }
 
+.fill-forms {
+  display: flex;
+}
+
 @media only screen and (max-width: 500px) {
   .vertical {
+    display: none;
+  }
+
+  .sec,
+  .ter {
     display: none;
   }
 }

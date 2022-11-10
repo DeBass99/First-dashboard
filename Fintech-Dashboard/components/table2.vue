@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="table-all">
-      <div>
+      <div class="list">
         <div class="heading">
           <div class="two">
             <img src="~/assets/tick.png" alt="" class="tick" />
@@ -20,7 +20,7 @@
         />
       </div>
 
-      <div>
+      <div class="list">
         <div class="heading">
           <div class="two">
             <img src="~/assets/tick.png" alt="" class="tick" />
@@ -39,7 +39,7 @@
         />
       </div>
 
-      <div>
+      <div class="list">
         <div class="heading">
           <div class="two">
             <img src="~/assets/tick.png" alt="" class="tick" />
@@ -114,5 +114,16 @@ button.btn {
 .table-all {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .table-all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list {
+    margin: 15px 0px;
+  }
 }
 </style>
