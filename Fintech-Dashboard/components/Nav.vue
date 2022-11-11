@@ -14,8 +14,8 @@
           <b-col md="12">
             <div class="nav-one">
               <div class="pages">
-                <b-nav-item
-                  ><nuxt-link to="/" class="data">
+                <b-nav-item>
+                  <nuxt-link to="/" class="data">
                     <span class="link" @click="first">
                       <svg
                         class="one"
