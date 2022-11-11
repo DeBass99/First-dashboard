@@ -138,7 +138,7 @@ p.date {
   display: flex;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .vertical {
     display: none;
   }

@@ -185,4 +185,10 @@ p.title {
 img {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .list {
+    margin-top: 30%;
+  }
+}
 </style>

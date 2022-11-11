@@ -116,7 +116,7 @@ button.btn {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .table-all {
     display: flex;
     flex-direction: column;

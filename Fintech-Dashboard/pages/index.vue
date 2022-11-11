@@ -1,189 +1,154 @@
 <template>
-  <div class="app"> 
-
+  <div class="app">
     <b-row class="top-name">
-
       <b-col class="top-text" md="3">
-
         <div class="all-stuffs">
+          <div class="head">
+            <p class="heading">INVESTMENT SECTORS</p>
+          </div>
 
-        <div class="head">
-          <p class="heading"> INVESTMENT SECTORS </p>
-        </div> 
-
-        <div class="text">
-          <One />
+          <div class="text">
+            <One />
+          </div>
         </div>
 
-      </div>
-
-      <div class="vertical"></div>
-
+        <div class="vertical"></div>
       </b-col>
-
 
       <b-col class="top-text" md="3">
+        <div class="all-stuffs">
+          <div class="head">
+            <p class="heading">TECH PERFORMANCE</p>
+          </div>
 
-      <div class="all-stuffs">
+          <div class="text">
+            <Two />
+          </div>
+        </div>
 
-      <div class="head">
-        <p class="heading"> TECH PERFORMANCE </p>
-      </div> 
-
-      <div class="text">
-        <Two />
-      </div>
-
-      </div>
-
-      <div class="vertical"></div>
-
+        <div class="vertical"></div>
       </b-col>
-
 
       <b-col class="top-text" md="3">
+        <div class="all-stuffs">
+          <div class="head">
+            <p class="heading">HLTH PERFORMANCE</p>
+          </div>
 
-      <div class="all-stuffs">
+          <div class="text">
+            <Three />
+          </div>
+        </div>
 
-      <div class="head">
-        <p class="heading"> HLTH PERFORMANCE </p>
-      </div> 
-
-      <div class="text">
-        <Three />
-      </div>
-
-      </div>
-
-      <div class="vertical"></div>
-
+        <div class="vertical"></div>
       </b-col>
-
 
       <b-col class="top-text" md="3">
+        <div class="all-stuffs">
+          <div class="head">
+            <p class="heading">AGENTS</p>
+          </div>
 
-      <div class="all-stuffs">
-
-      <div class="head">
-        <p class="heading"> AGENTS </p>
-      </div> 
-
-      <div class="text">
-        <Four />
-      </div>
-
-      </div>
-
+          <div class="text">
+            <Four />
+          </div>
+        </div>
       </b-col>
-
     </b-row>
 
     <b-row>
       <b-col mb="12" class="overview">
         <div class="head-2">
+          <p class="title">OVERVIEW</p>
 
-          <p class="title"> OVERVIEW </p>
-
-          <p class="date"> updated at <strong>7:01am on Jan 23</strong></p>
-
+          <p class="date">updated at <strong>7:01am on Jan 23</strong></p>
         </div>
       </b-col>
     </b-row>
 
-    <b-row >
+    <b-row>
       <b-col md="12">
-
         <Table1 />
-
       </b-col>
     </b-row>
-
   </div>
 </template>
 
-
-
 <script>
-import One from '../components/one.vue';
-import Two from '../components/two.vue';
-import Three from '../components/three.vue';
-import Four from '../components/four.vue';
+import One from "../components/one.vue";
+import Two from "../components/two.vue";
+import Three from "../components/three.vue";
+import Four from "../components/four.vue";
 export default {
-    name: "IndexPage",
-    components: { One, Two, Three, Four }
-}
+  name: "IndexPage",
+  components: { One, Two, Three, Four },
+};
 </script>
 
+<style scoped>
+.top-name {
+  margin-top: 30px;
+}
 
+.top-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
 
-<style scoped> 
+.all-stuffs {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 99.5%;
+}
 
-  .top-name{ 
-    margin-top: 30px;
-  }
+.head {
+  background: #f3f4f9;
+}
 
-  .top-text{ 
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-  }
+.head p {
+  padding: 40px 0px 20px 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #a4a5b2;
+}
 
-  .all-stuffs{ 
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 99.5%;
-  }
+.text {
+  padding: 30px;
+}
 
-  .head{ 
-    background: #F3F4F9;
-  }
+.vertical {
+  border-left: 2px solid #e2e3e9;
+  height: 100%;
+}
 
-  .head p{ 
-    padding: 40px 0px 20px 30px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    color: #A4A5B2;
-  }
+.overview {
+  padding: 30px;
+  background: #f3f4f9;
+}
 
-  .text{ 
-    padding: 30px;
-  }
-
-  .vertical{  
-            border-left: 2px solid #E2E3E9;
-            height: 100%;
-  }
-
-  .overview{ 
-    padding: 30px;
-    background: #F3F4F9;
-  }
-
-.head-2{ 
+.head-2 {
   display: flex;
   justify-content: space-between;
 }
-p.title{ 
+p.title {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #A4A5B2;
+  color: #a4a5b2;
 }
 
-p.date{ 
+p.date {
   font-style: italic;
   font-weight: 500;
   font-size: 12px;
-  color: #A4A5B2;
+  color: #a4a5b2;
 }
 
-@media only screen and (max-width: 500px) { 
-  .vertical{ 
+@media only screen and (max-width: 600px) {
+  .vertical {
     display: none;
   }
 }
-  
-
-
 </style>
